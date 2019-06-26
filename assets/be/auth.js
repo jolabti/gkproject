@@ -1,6 +1,7 @@
 
 
-var base_url = 'http://localhost/panelgkii/index.php/welcome/';
+//var base_url = 'http://localhost/panelgkii/index.php/welcome/';
+var base_url = 'http://panelgkii.jn-code.xyz/index.php/welcome/';
 
 var paramEmail = "";
 var paramPassword = "";
