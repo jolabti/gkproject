@@ -37,7 +37,7 @@ class Welcome extends CI_Controller {
 		{
 			$this->load->view("be/headlogin");
 			$this->load->view("be/login");
-			$this->load->view("be/footer"); 		 
+			$this->load->view("be/footerjs"); 		 
 		}
 		//echo json_encode($data);
 
@@ -87,7 +87,8 @@ class Welcome extends CI_Controller {
 
  		$this->load->view('be/head');
 		$this->load->view('be/content', $data);
-		$this->load->view('be/footer');
+		$this->load->view('be/footermain');
+		$this->load->view('be/footerjs');
 	}
 
 	public function testSesiIbadah(){
